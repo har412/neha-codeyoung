@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+  
+</head>
+<body>
+
+<!-- 
+1.Canvas is used to draw 2 D graphics in Html webpage.
+2.It used a block which is controlled using javascript.
+ -->
+
+ <h1>Canvas</h1>
+<!-- 
+ <canvas id="first-canvas" width="600px" height="400px" style="border: 2px solid red;" >
+
+ </canvas> -->
+ <canvas id="first-canvas" width="600px" height="400px" style="border: 2px dashed red;" >
+
+ </canvas>
+
+
+
+    <script>
+        var drawLine =document.getElementById("first-canvas");
+        var pen =drawLine.getContext("2d");
+        pen.moveTo(0,0);
+        pen.lineTo(500,200);
+        pen.stroke();
+    </script>
+</body>
+</html>
