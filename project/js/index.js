@@ -48,6 +48,9 @@ var output_of_addition = Bob_add_my_numbers(num_1,num_2) // function call
 console.log(output_of_addition);
 
 
+document.getElementById('id').value;
+document.getElementById('show-data').innerHTML=""
+
 
 
 
