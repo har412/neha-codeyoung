@@ -18,3 +18,6 @@ for(var start=2;start<6;start++){
 // 2. Condition for the Loop Termination ==> This condition is checked on every loop and if its true then the code will get executed.
 // 3. Increment / decrement ==> after every successful loop an increment or decrement is there.
 
+for(var i=10;i>3;i--){
+    console.log("Counting")
+}
