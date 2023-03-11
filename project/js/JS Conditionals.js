@@ -17,7 +17,7 @@
 
 function check() {
     var student_marks=document.getElementById('marks').value;
-    if(student_marks>=90){
+    if(student_marks>=90){  
         console.log("You are selected for scholarship");
         document.getElementById('show-result').innerHTML="You are selected for scholarship";
         
