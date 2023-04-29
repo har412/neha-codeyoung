@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .center{
+         
+            
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+    <img src="https://www.w3schools.com/js/pic_bulboff.gif" id="bulb" alt="" onclick="change()">
+
+    <button onclick="turnItOn()">ON</button>
+    <button onclick="turnItOff()">OFF</button>
+    <div id="show-data"></div>
+</div>
+
+<script>
+
+    function turnItOff(){
+        var img = document.getElementById('bulb');
+        img.src = "https://www.w3schools.com/js/pic_bulboff.gif"
+        console.log("I am off")
+        document.getElementById('show-data').innerHTML="i an off"
+    }
+    function turnItOn(){
+        var img = document.getElementById('bulb');
+        img.src="https://www.w3schools.com/js/pic_bulbon.gif"
+        console.log('I am On')
+        document.getElementById('show-data').innerHTML="i an on"
+    }
+</script>
+</body>
+</html>

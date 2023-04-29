@@ -1,0 +1,9 @@
+        var image =  document.getElementById('bulb')
+if(image.src.match("bulboff")){
+    image.src="https://www.w3schools.com/js/pic_bulbon.gif"
+    console.log("its off made it on");
+}
+else{
+    image.src="https://www.w3schools.com/js/pic_bulboff.gif"
+    console.log("its on made it off");
+}

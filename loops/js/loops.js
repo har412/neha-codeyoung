@@ -5,7 +5,7 @@ var number = document.getElementById('number').value;
 var table = document.getElementById('table');
 table.innerHTML=""; 
 
-for(var i = 1 ; i<=50;i++){
+for(var i = 1 ; i<=10;i++){
 
     var row = table.insertRow();
     var col1 = row.insertCell();
